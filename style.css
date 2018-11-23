@@ -1,0 +1,435 @@
+/* Style the top navigation bar */
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('./fonts/georgia.ttf');
+  }
+
+h1,h2,h3,h4,h5,h6,p,a,li,span {
+    font-family: 'Georgia', serif;
+}
+
+body{
+    margin: 0px;/* remove margin space*/
+}
+/*.row{
+    margin-top: 20px;
+    padding: 3%;
+}*/
+
+.navbar {
+    overflow: hidden; 
+    background-color: #333; 
+}
+
+.menubar {
+    overflow: hidden; 
+    background-color: #fff; 
+    /*margin: 1.2%;*/
+    /*padding: 1.5%;*/
+    padding-top: 40px;
+    padding-bottom: 14px;
+}
+
+.menu-section{
+/*    margin: 2%;*/
+position: relative;
+    float: left;
+    border-bottom: 12px solid #e2e2e2;
+    /* padding: 32px; */
+    width: 100%;
+}
+
+.read-more{
+    padding: 2.5%;
+    background-color: #0c96f8;
+    color: white;
+    border-radius: 7px;
+    width: 115px;
+    border: 0px;
+}
+
+.navbar li {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 0px; /* Add some padding */
+}
+/* */
+.navbar li {
+    margin: 1.25em 0;
+    padding: 0px 0.4em;
+    border-left: 1.5px solid #9c9c9c;
+    color: #9c9c9c;
+    
+}
+
+/* remove pipe line from first element*/
+.navbar li:first-child {
+    border-left: none;
+}
+
+.navbar ul {
+    margin: 7px;
+
+}
+
+.menubar li {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: black; /* White text color */
+    text-align: center; /* Center the text */
+    /*padding: 14px 4px; *//* Add some padding */
+    margin-right: 14px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.menubar li a{
+    text-decoration: none;
+    color: #333333;
+}
+.menubar
+{
+    border-bottom: 5px solid #e8e7e7;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.menubar ul{
+    padding-inline-start: 0px;
+}
+
+.logo
+{
+    padding:2px;
+    float: left;
+    margin-bottom: -2px;
+    margin-left: 12px;
+    width: 50%;
+}
+
+.social
+    {
+        float:right;
+
+    font-size: 34px;
+    }
+    .social a{  border-radius: 34px;
+        
+    }   
+
+    .social .fa {
+        border-radius: 34px;
+        background: gray;
+    }
+/*
+css for menu icons
+
+*/
+
+.fa {
+    padding: 5px;
+    font-size: 22px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      background-color:red;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.search{
+    /*float: right;*/
+    padding: 6%;
+}
+
+.search-box{
+    padding: 1%;
+    background-color: #f0f0f0;
+    border: 0px;
+    border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 189px;
+}
+
+.button-submit{
+    padding: 1%;
+    width: 94px;
+    background-color: #1fa1f9;
+    /* border-radius: 8px; */
+    color: white;
+    border-radius: 7px;
+    border: 0px;
+}
+.banner{
+    background-image: url("mushroom-3659165_1920.jpg");
+    background-color: #cccccc;
+    /*height: 100%;*/
+    width: 100%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  padding: 15% 0;
+  margin-top: 23.1%;
+}
+
+.banner .img-content{
+    background-color: white;
+    position: relative;
+    /*height: 85px;*/
+    padding: 2%;
+    width: 415px;
+    opacity: 0.65;
+    font-family: Verdana, Geneva, sans-serif;
+    color: black;
+    bottom: 0px;
+    z-index: 1;
+    left: 60px;
+    top: 0px;
+}
+
+.img-right{
+    position: absolute;
+    background-image: url(device.png);
+    background-color: #cccccc;
+    /* height: 74%; */
+    /* width: 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22%;
+    padding-right: 361px;
+    /* padding-left: 278px; */
+}
+.section{
+    width:50%;
+    float: right;
+}
+.sub-section{
+    float: right;
+    padding-top: 68px;
+    padding-right: 177px;
+    padding-bottom: 31px;
+}
+/*.sub-section-left{
+width: 50%;
+float: right;
+margin-left: -79px;
+}
+.sub-section-right{
+    width: 50%;
+    float: right;
+}
+*/
+.column {
+    float: left;
+    width: 50%;
+    /* padding: 10px; */
+    /* height: 246px; */
+}
+.space{
+    padding: 6%;
+    text-align: center;
+}
+.section .space h3 {
+color:#249ae6;
+font-weight: 300;
+}
+.section .space p {
+    color:#747475;
+    }
+
+.main-body
+{
+    width: 100%;
+    float: left;
+}
+.contact-us{
+    width: 100%;
+    float: left;
+}
+.contact-box{
+    background-color: #e0e0e0;
+    width: 89.5%;
+    margin-top: 50px;
+    margin-left: 28px;
+    padddin-left: 26%;
+    margin-bottom: 50px;
+    padding: 26px;
+    border-left: 10px solid #0c96f8;
+    padding-right: 40px;
+    font-size: 25px;
+}
+.contact-box h1{
+    margin-left: 50px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color:#393939;
+}
+
+.contact-box p{
+    margin-left: 54px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #464646;
+}
+.contact-button{
+    float: right;
+    margin-top: -81px;
+    padding: 20px;
+    background-color: #0c96f8;
+    border-radius: 7px;
+    border: 0px;
+    color: white;
+    font-size: 31px;
+    width: 340px;
+    font-size: 38px;
+    color: #eedfd4;
+}
+.footer-ares
+{
+    width: 100%;
+    float: left;
+    background: #212121;
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-ares-top
+{
+    width: 100%;
+    float: left;
+    background: #1a1a1a;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-column{
+    width: 25%;
+    float: left;
+}
+
+#fname,#lname, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border:0px;
+    /*border: 1px solid #ccc;*/
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #222222;
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.title{
+    color:white;
+    text-align: left;
+    padding: 19px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+}
+.sub{
+    float:left;
+    background-color: #20a1f9;
+    padding: 6px;
+    width: 104px;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 16px;
+
+}
+.description{
+    text-align: justify;
+    color: #6e6e6e;
+    padding: 23px;
+}
+.para{
+    color:#0c96f8;
+}
+.logo-title{
+    color: #363636;
+    font-size: 52px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 36px;
+    margin-left: 16px;
+    font-weight: 482;
+}
+/*.menubar li a:before{
+content:'';
+background: red;
+width: 70px;
+height: 30px;
+display: inline-block;
+position: absolute;
+}*/
+
+.menubar li a:before {
+   content: '';
+    background: #199cf9;
+    width: 125px;
+    height: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 4.5em;
+    left: 1.5em;
+    z-index: 9999;
+}
+
+.logo p{
+    margin-left: 20px;
+    color: #999999;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.post-title{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+.readmore{
+    color: #199cf9;
+    text-align: right;
+}
